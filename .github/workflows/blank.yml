@@ -38,5 +38,5 @@ jobs:
           whoami
           ls -alh /home/runner
           ls -alh /home/runner/.ssh
-          cat /home/runner/config
+          cat /home/runner/.ssh/config
           env | sort
