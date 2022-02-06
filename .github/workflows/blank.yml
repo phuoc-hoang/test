@@ -39,4 +39,5 @@ jobs:
           ls -alh /home/runner
           ls -alh /home/runner/.ssh
           cat /home/runner/.ssh/config
+          ls -alh /github/home
           env | sort
