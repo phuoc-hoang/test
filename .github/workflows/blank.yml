@@ -36,4 +36,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           whoami
+          ls -alh /home/runner
+          ls -alh /home/runner/.ssh
+          cat /home/runner/config
           env | sort
