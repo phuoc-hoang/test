@@ -36,8 +36,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           whoami
-          ls -alh /home/runner
-          ls -alh /home/runner/.ssh
-          cat /home/runner/.ssh/config
-          ls -alh /github/home
+          jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH"
           env | sort
